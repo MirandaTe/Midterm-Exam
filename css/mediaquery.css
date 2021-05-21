@@ -427,23 +427,27 @@
 
 /*--------- Second Page ----------*/
 
-    table {
-    width: 100%;
-    overflow: hidden;
-    }
-    .price-list {
-    width: 100%;
-    margin: 0.5% 0% 0.5% 1%;  
-    }
-
-    .list-1, .list-2, .list-3 {
+.list-1, .list-2, .list-3, .lists-name {
     font-size: 80%;
-    }
+    margin: 0 5%;  
+}
 
-    .lists-name {
-    font-size: 90%;
-    }
+.list-2 {
+    width : 95%;
+    background-color: #F2F2F2;
+    color: #000000;
+    padding: 3% 5%;
+    margin: 0.5% 3%;
+    border-radius: 15px;
+}
+}
 
+/* ------------ Device max-width 540 ---------------- */
+
+@media (max-width: 540px) {
+    .list-1, .list-2, .list-3, .lists-name {
+        font-size:55%;
+}
 }
 
 
