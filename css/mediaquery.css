@@ -16,6 +16,9 @@
     .mobile-filters {
         display: none;
     }
+    .mobile-nav {
+        display: none;
+    }
 
 
 /* ------------ Device max-width 1024 ---------------- */
@@ -157,8 +160,6 @@
     .list-box {
         margin: 0 50px 20px 0;
     }
-    
-}
 
 /* ------------ Device max-width 980 ---------------- */
 
@@ -180,6 +181,38 @@
         display: none;
     }
 
+    .mobile-nav {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        background-color: rgb(27, 25, 192);
+        padding: 3% 0;
+    }
+
+    .mobile-ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .mobile-nav-li {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .mobile-nav-icon {
+        width: 150%;
+
+    }
+    
 /* ------------------------------- */
 
     .search>p {
@@ -224,12 +257,12 @@
         margin: 0 5% 0 0;
     }
 
-    .profile {
+    .profile, .profile-2 {
         width: 25%;
         margin-right: 0;
     }
 
-    .profile-img {
+    .profile-img, .second-profile {
         width: 60%;
     }
 
@@ -296,7 +329,6 @@
 
     .container {
         width:100%;
-        margin: 3% 0;
         margin-left: 0;
     }
 
@@ -383,5 +415,22 @@
     .footer-info {
         margin: 3%;
     } 
+
+/*--------- Second Page ----------*/
+
+table {
+    width: 100%;
+    overflow: hidden;
+}
+.price-list {
+    width: 100%;
+    margin: 0.5% 0% 0.5% 1%;  
+}
+
+.list-1, .list-2, .list-3 {
+    font-size: 80%;
+}
+.lists-name, {
+    font-size: 90%;
 
 }

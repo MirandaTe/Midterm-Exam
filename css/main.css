@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/* START HEADER */
+/* --------------START HEADER-------------- */
 
 aside {
     width: 20%;
@@ -46,7 +46,7 @@ aside {
     background-color: white;
 }
 
-/* START NAVIGATION */
+/* ----------------START NAVIGATION------------------ */
 
 nav {
     display: flex;
@@ -125,7 +125,7 @@ nav a {
     height: 24px;
 }
 
-/* END NAVIGATION */
+/* ----------------END NAVIGATION -----------------*/
 
 .following {
     display: flex;
@@ -177,8 +177,8 @@ nav a {
     font-size: 100%;
 }
 
-/* END HEADER */
-/* START SECTION-CONTAINER */
+/* ------------------END HEADER -------------------*/
+/* ----------------- START SECTION-CONTAINER---------------------- */
 
 .container {
     margin-left: 20%
@@ -225,11 +225,11 @@ nav a {
     font-display: swap;
 }
 
-.profile-img {
+.profile-img, .second-profile {
     width: 100%;
 }
 
-.profile {
+.profile, .profile-2 {
     width: 12%;
     margin-right: 8%;
     
@@ -273,8 +273,8 @@ nav a {
     color: white;
 }
 
-/* END SECTION-CONTAINER */
-/* START SECTION-CONTAINER-1 */
+/* -----------------END SECTION-CONTAINER----------------- */
+/* --------------------START SECTION-CONTAINER-1 ----------------*/
 
 .container-1 {
     margin-left: 20%;
@@ -431,8 +431,8 @@ nav a {
     color: #222222;
 }
 
-/* END SECTION-2 */
-/* START DESIGNERS-SECTION */
+/* ---------------------END SECTION-2 ------------------------*/
+/* ------------------START DESIGNERS-SECTION ---------------------*/
 
 .designers {
     font-size: 180%;
@@ -488,13 +488,11 @@ nav a {
 
 .small-boxes-1 {
     flex-direction: column;
-    /* padding: 1.5% 0; */
     width: 11%;   
 }
 
 .small-boxes {
     justify-content: space-between;
-    /* margin: 0 4%; */
     margin: 0 0 0 2%;
     width: 95%;
 }
@@ -552,8 +550,8 @@ nav a {
     padding: 6% 12%;
 }
 
-/* END DESIGNERS-SECTION */
-/* START SECTION-LISTS */
+/* -----------------END DESIGNERS-SECTION --------------------*/
+/* -----------------START SECTION-LISTS------------------------- */
 
 .section-lists {
     margin: 3% 0 3% 25%;
@@ -601,8 +599,8 @@ nav a {
 
 }
 
-/* END SECTION-LISTS */
-/* START FOOTER */
+/* ------------------END SECTION-LISTS ------------------*/
+/* ---------------------START FOOTER --------------------*/
 
 footer {
     margin-left: 25%;
@@ -645,6 +643,48 @@ footer {
     font-size: 16px;
 }
 
+
+/* ------------- START SECOND PAGE ------------------*/
+
+td {
+    padding: 3% 3% 3% 0;
+}
+.list-2 {
+    background-color: #F2F2F2;
+}
+
+.list-1 {
+    color: #AFAFAF;
+} 
+
+.price-list {
+    width: 75%;
+    margin: 0.5% 15% 0.5% 10%;
+}
+
+.list-border {
+    border-bottom: 1px solid #AFAFAF;
+} 
+
+.lists-name, {
+    font-size: 100%;
+    font-family: 'Avenir LT Pro';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    color: #111111;
+}
+
+.list-1, .list-2, .list-3 {
+    font-size: 90%;
+    font-family: 'Avenir LT Pro';
+    font-style: normal;
+    font-display: swap;
+}
+
+.list-3 {
+    color: #FF2288;
+}
 
 
 
