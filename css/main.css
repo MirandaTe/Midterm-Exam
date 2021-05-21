@@ -666,7 +666,7 @@ td {
     border-bottom: 1px solid #AFAFAF;
 } 
 
-.lists-name, {
+.lists-name {
     font-size: 100%;
     font-family: 'Avenir LT Pro';
     font-weight: 500;
@@ -686,8 +686,3 @@ td {
     color: #FF2288;
 }
 
-
-
-
-
- 
